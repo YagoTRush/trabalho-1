@@ -7,4 +7,57 @@
     font-family: "inter", sans-serif
 }
 
+:root{
+    --baby-blue: #abe4ff;
+    --grey: #333333;
+    --dark-grey: #1F1F1F;
+    --white: #FFFFFF;
+}
 
+body{
+    background-color: var(--dark-grey);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img{
+    height: 88px;
+    width: 88px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+
+div{
+    background-color: var(--grey);
+    color: var(--white);
+    width: 384px;
+    padding: 40px;
+    border-radius: 22px;
+    text-align: center;
+}
+ul,li{
+    list-style: none;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 4px;
+}
+
+strong{
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--baby-blue);
+}
+
+p{
+    margin-block: 24px;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--white);
+}
