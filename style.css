@@ -12,10 +12,11 @@
     --grey: #333333;
     --dark-grey: #1F1F1F;
     --white: #FFFFFF;
+    --black: #141414;
 }
 
 body{
-    background-color: var(--dark-grey);
+    background-color: var(--black);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -31,7 +32,7 @@ img{
 }
 
 div{
-    background-color: var(--grey);
+    background-color: var(--dark-grey);
     color: var(--white);
     width: 384px;
     padding: 40px;
@@ -63,7 +64,19 @@ p{
 }
 
 a{
-    
+    display: block;
+    background-color: var(--grey);
+    margin-bottom: 16px;
     color: var(--white);
-    margin-bottom: 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+a:hover{
+    background-color: var(--baby-blue);
+    color: var(--dark-grey);
+    transition: .4s;
 }
